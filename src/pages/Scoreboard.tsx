@@ -8,28 +8,26 @@ const RECENT_MATCHES = [
     id: 1,
     homeTeam: "Abhi's Team",
     awayTeam: "Neel's Team",
+    homeScore: 1,
+    awayScore: 1,
+    date: '2024-11-27',
+    scorers: [
+      { name: "Alvin", team: "Neel's Team", goals: 1 },
+      { name: "Hashly [Abel.L OG]", team: "Abhi's Team", goals: 1 }
+    ]
+  },
+  {
+    id: 1,
+    homeTeam: "Abhi's Team",
+    awayTeam: "Neel's Team",
     homeScore: 3,
     awayScore: 2,
-    date: '2024-03-15',
+    date: '2024-11-20',
     scorers: [
       { name: "Abhinav Sandeep", team: "Abhi's Team", goals: 2 },
       { name: "Jonathan Sijo", team: "Abhi's Team", goals: 1 },
       { name: "Jade George", team: "Neel's Team", goals: 1 },
       { name: "Reuben", team: "Neel's Team", goals: 1 }
-    ]
-  },
-  {
-    id: 2,
-    homeTeam: "Neel's Team",
-    awayTeam: "Abhi's Team",
-    homeScore: 2,
-    awayScore: 2,
-    date: '2024-03-08',
-    scorers: [
-      { name: "Festy", team: "Neel's Team", goals: 1 },
-      { name: "Alvin", team: "Neel's Team", goals: 1 },
-      { name: "Mebin", team: "Abhi's Team", goals: 1 },
-      { name: "Joshua Iype", team: "Abhi's Team", goals: 1 }
     ]
   }
 ];
@@ -38,24 +36,24 @@ const STANDINGS = [
   {
     position: 1,
     team: "Abhi's Team",
-    played: 10,
+    played: 11,
     won: 7,
-    drawn: 2,
+    drawn: 3,
     lost: 1,
     goalsFor: 25,
     goalsAgainst: 12,
-    points: 23,
+    points: 26,
   },
   {
     position: 2,
     team: "Neel's Team",
-    played: 10,
+    played: 11,
     won: 6,
-    drawn: 2,
+    drawn: 3,
     lost: 2,
     goalsFor: 20,
     goalsAgainst: 15,
-    points: 20,
+    points: 23,
   }
 ];
 
