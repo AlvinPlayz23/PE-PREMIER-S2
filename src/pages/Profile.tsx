@@ -18,10 +18,10 @@ export default function Profile() {
   );
 
   const stats = {
-    goals: 15,
-    assists: 8,
-    gamesPlayed: 10,
-    minutesPlayed: 850,
+    goals: -,
+    assists: -,
+    gamesPlayed: -,
+    minutesPlayed: 30,
     rating: playerData?.rating || 85,
     team: playerData?.team || "Unassigned",
   };
