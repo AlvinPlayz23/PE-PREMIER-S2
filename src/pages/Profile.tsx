@@ -22,7 +22,7 @@ export default function Profile() {
     assists: 0,
     gamesPlayed: 0,
     minutesPlayed: 30,
-    rating: playerData?.rating || 00,
+    rating: playerData?.rating || 85,
     team: playerData?.team || "Unassigned",
   };
 
