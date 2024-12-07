@@ -12,7 +12,7 @@ const RECENT_MATCHES = [
     awayScore: 1,
     date: '2024-03-08',
     scorers: [
-      { name: "Lisshanth", team: "Neel's Team", goals: 1 },
+      { name: "Lisshanth", team: "Neel's Team.", goals: 1 },
       { name: "Abhinav Sandeep", team: "Abhi's Team", goals: 1 }
     ]
   }
@@ -52,7 +52,7 @@ const TOP_PERFORMERS = [
     price: '0.890',
     team: "Abhi's Team",
     imageUrl: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop',
-    description: '15 goals, 8 assists in 10 matches',
+    description: '16 goals, 8 assists in 11 matches',
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ const TOP_PERFORMERS = [
     price: '0.795',
     team: "Abhi's Team",
     imageUrl: 'https://images.unsplash.com/photo-1577015834140-07f5d4c928c6?w=800&auto=format&fit=crop',
-    description: '8 goals, 10 assists in 10 matches',
+    description: '8 goals, 11 assists in 10 matches',
   }
 ];
 
